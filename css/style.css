@@ -96,6 +96,10 @@ footer {
     padding: 10px;
 }
 
+.title-blue {
+    color: #0084fd;
+}
+
 .apple-btn {
     background-color: #0084fd;
     color: white;
@@ -117,10 +121,88 @@ footer {
     color: #0084fd;
 }
 
-.partner {
-    min-height: 100px;
+.container-less {
+    max-width: 700px;
+    margin: auto;
+}
+
+.row-less {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 70px;
+}
+
+.plan-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    color: white;
+}
+
+.img-plan {
+    width: 100%;
+}
+
+.plan-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: white;
+    border-radius: 30px;
+    margin-top: 50px;
+    padding: 50px;
+}
+
+.btn-small-violet {
     background-color: #9792e4;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.partner-pres {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.font-small {
+    font-size: 14px;
+    text-align: center;
+}
+
+.title-violet {
+    color: #9792e4
+}
+
+.partner {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #9792e4;
+    color: white;
+    border-radius: 20px;
     margin: 20px 0;
+}
+
+.partner-img {
+    display: flex;
+    justify-content: center;
+}
+
+.partner-photo {
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 50%;
+}
+
+.partner-quote {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 30px;
 }
 
 .last-container {
