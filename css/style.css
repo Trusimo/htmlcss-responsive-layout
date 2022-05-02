@@ -77,6 +77,46 @@ footer {
     background-color: #9792e4;
 }
 
+.bg-lb {
+    background-color: #b5ddff;
+    border-radius: 10px;
+}
+
+.demo-snippet {
+    display: flex;
+    gap: 50px;
+}
+
+.demo-text {
+    width: 40%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 30px;
+    padding: 10px;
+}
+
+.apple-btn {
+    background-color: #0084fd;
+    color: white;
+    padding: 8px 30px;
+    border-radius: 10px;
+}
+
+.phone-snippet {
+    width: 30%;
+}
+
+.flex-first-sec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding: 30px 20px;
+    color: #0084fd;
+}
+
 .partner {
     min-height: 100px;
     background-color: #9792e4;
